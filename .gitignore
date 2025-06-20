@@ -1,0 +1,33 @@
+# macOS system files
+.DS_Store
+
+# Local/temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS or CLI-generated cache
+__pycache__/
+*.pyc
+
+# kubectl or helm local outputs
+*.out
+*.rendered.yaml
+
+# PDF or documentation outputs (optional)
+*.pdf
+
+# Terraform or Helm specific (if you use them later)
+.terraform/
+terraform.tfstate*
+charts/
+
+# Secrets (if any local test or .env files exist)
+.env
+*.secret.yaml
